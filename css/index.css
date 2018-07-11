@@ -1,0 +1,239 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+.wjs_top_tool .row {
+  border-bottom: 1px solid black;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.wjs_top_tool .row > div {
+  border-right: 1px solid #000;
+}
+.wjs_top_tool .row > div a {
+  color: #80808c;
+}
+.wjs_top_tool .row > div:last-child {
+  border-right: none;
+}
+.wjs_top_tool .row > div:last-child .btn-danger {
+  color: #fff;
+}
+.wjs_top_tool .wjs_phone {
+  position: relative;
+}
+.wjs_top_tool .wjs_phone > img {
+  position: absolute;
+  top: 20px;
+  left: -3px;
+  display: none;
+  z-index: 10;
+}
+.wjs_top_tool .wjs_phone:hover > img {
+  display: block;
+}
+#wjs_nav .navbar-default {
+  background-color: pink;
+  height: 90px;
+  margin-bottom: 0;
+}
+#wjs_nav .navbar-brand {
+  padding-top: 7px;
+}
+#wjs_nav .navbar-brand .wjsfont {
+  font-size: 70px;
+}
+#wjs_nav .navbar-brand .wjsfont-logo {
+  color: red;
+}
+#wjs_nav a {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.wjs_slides img {
+  width: 100%;
+}
+.wjs_pay {
+  padding: 40px 0 20px;
+}
+.wjs_pay .row > div {
+  margin-bottom: 20px;
+}
+.wjs_pay .row a {
+  color: #80808c;
+}
+.wjs_pay .row a:hover {
+  color: red;
+}
+.wjs_pay .row a span {
+  font-size: 40px;
+}
+.wjs_pay .row a h4 {
+  font-size: 22px;
+}
+.wjs_banner {
+  margin-bottom: 10px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 50px;
+  line-height: 50px;
+}
+.wjs_banner .yue {
+  color: red;
+  border-bottom: 1px dashed red;
+}
+.wjs_banner a {
+  color: black;
+}
+.buy .row > div {
+  padding-top: 10px;
+}
+.buy .cart {
+  color: #80808c;
+  position: relative;
+  display: block;
+  background-color: #f7f7f7;
+  box-shadow: 1px 0px 9px 3px #ccc;
+  margin-bottom: 10px;
+}
+.buy .cart .cart_left {
+  width: 80%;
+  border-right: 1px dashed #000;
+  position: relative;
+}
+.buy .cart .cart_left h4 {
+  padding-top: 20px;
+  text-align: center;
+}
+.buy .cart .cart_left .cart_content {
+  padding: 0 10px;
+}
+.buy .cart .cart_left .cart_content .pull-left {
+  width: 50%;
+}
+.buy .cart .cart_left .cart_content .pull-left > p {
+  padding: 5px 0;
+}
+.buy .cart .cart_left .cart_content .pull-right {
+  width: 50%;
+  text-align: right;
+}
+.buy .cart .cart_left .cart_content .pull-right > p {
+  padding: 5px 0;
+}
+.buy .cart .cart_left::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  box-shadow: 0 1px 0 0 #ccc;
+}
+.buy .cart .cart_left::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  box-shadow: 0 -1px 0 0 #ccc;
+}
+.buy .cart .cart_right {
+  width: 20%;
+  text-align: center;
+  padding-top: 50px;
+}
+.buy .cart .cart_right > p {
+  padding: 5px;
+}
+.buy .cart_red {
+  background-color: red;
+  color: #fff;
+}
+.buy .cart_red .cart_left {
+  border-color: #fff;
+  position: relative;
+}
+.buy .cart_red .cart_left .wjsfont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+}
+.buy .tool_tip span:nth-of-type(1) {
+  color: green;
+  border: 1px solid green;
+}
+.buy .tool_tip span:nth-of-type(2) {
+  color: red;
+  border: 1px solid red;
+}
+.wjs_news .news {
+  font-size: 30px;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.wjs_news .news::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #000;
+  bottom: -5px;
+  right: -10px;
+}
+.wjs_news .wjs_title .line {
+  position: absolute;
+  width: 0;
+  border-right: 1px dashed #000;
+  height: 400px;
+  top: 12px;
+  left: 87px;
+  z-index: -1;
+}
+.wjs_news .wjs_title ul li {
+  margin-bottom: 50px;
+}
+.wjs_news .wjs_title ul li a {
+  color: #fff;
+  background: #ccc;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 10px;
+}
+.wjs_news .wjs_title ul li a:hover,
+.wjs_news .wjs_title ul li a:focus {
+  background: red;
+}
+.wjs_news .wjs_title ul li .wjsfont {
+  font-size: 50px;
+}
+#footer {
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+#footer ul li {
+  float: left;
+}
+#footer ul li a {
+  font-size: 80px;
+  margin-left: 30px;
+  color: #80808c;
+}
+#footer ul li a:hover {
+  color: blue;
+}
