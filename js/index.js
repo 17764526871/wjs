@@ -3,7 +3,7 @@ $(function () {
   })
 
 whatScreen();
-
+ // test
 // 屏幕的宽度改变之后 会自动触发
 onresize=function () {
   whatScreen();
